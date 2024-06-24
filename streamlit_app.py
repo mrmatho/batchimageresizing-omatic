@@ -8,7 +8,7 @@ def resize_image(image, width, height):
 
 def main():
     st.title("Batch Image Resizer")
-    st.text("##Especially for David##")
+    st.text("Especially for David")
 
     uploaded_files = st.file_uploader("Choose images...", type=["jpg", "jpeg", "png"], accept_multiple_files=True)
     if uploaded_files:
