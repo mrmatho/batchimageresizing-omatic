@@ -7,8 +7,14 @@ def resize_image(image, width, height):
     return image.resize((width, height))
 
 def main():
-    st.title("Batch Image Resizer")
+    st.set_page_config(
+        page_title="Batch Image Resizer-omatic",
+        page_icon="🔷",
+        layout="wide"
+    )
+    st.title("Batch Image Resizer-omatic")
     st.text("Especially for David")
+    
 
     uploaded_files = st.file_uploader("Choose images...", type=["jpg", "jpeg", "png"], accept_multiple_files=True)
     if uploaded_files:
