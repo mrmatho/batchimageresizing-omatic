@@ -13,7 +13,7 @@ def main():
         layout="wide"
     )
     st.title("Batch Image Resizer-omatic")
-    st.text("Especially for David")
+    st.text("Resize your Images in a flash!")
     
 
     uploaded_files = st.file_uploader("Choose images...", type=["jpg", "jpeg", "png"], accept_multiple_files=True)
